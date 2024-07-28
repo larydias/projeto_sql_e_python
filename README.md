@@ -1,4 +1,5 @@
-Peça ajuda sim! 
+ <h2 align "justified"Peça ajuda sim! </h2>
+  <img align = "right" src= "https://media.discordapp.net/attachments/1075996497407123509/1227375977617686617/prof.png?ex=66282df4&is=6615b8f4&hm=ecf94f7593b2f1aa6bf84705553feecf3a37cd58c436f7eb387b68b665805513&=&format=webp&quality=lossless&width=140&height=140">
 
 Transição de carreira é um processo muito difícil. Requer estudo, força de vontade e disposição para enfrentar as dificuldades. E como qualquer estudante, peço um help aos profissionais mais experientes. 
 
