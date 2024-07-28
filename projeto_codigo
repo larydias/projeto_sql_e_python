@@ -1,0 +1,26 @@
+import sqlite3
+import pandas as pd
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+df_ouvintes = pd.read_csv("//content/drive/MyDrive/Playlist/ouvintes.csv", delimiter=",")
+
+df_ouvintes
+
+conn = sqlite3.connect('playlist.db')
+
+df_ouvintes.to_sql('tb_ouvintes', conn, index=False, if_exists='replace')
+
+def run_query(query):
+    return pd.read_sql_query(query, conn)
+
+conn = sqlite3.connect('playlist.db')
+query = """
+SELECT * FROM tb_ouvintes
+WHERE EXECUCOES > 2908775
+ORDER BY EXECUCOES DESC
+LIMIT 3
+"""
+df = pd.read_sql(query, conn)
+df
