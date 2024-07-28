@@ -12,8 +12,7 @@ O que foi realizado?
 - Usamos um "def" para criar um DataFrame do Python com os dados;
 - Criamos um banco de dados chamado "playlist.db" e carregamos os registros;
 - Ajustamos o ambiente para executar as consultas SQL e trazer os resultados em DataFrame;
-- Montamos uma query simples e ordenada para mostrar os artistas com os hits mais executados (continuação de um trabalho anterior), confira: https://lnkd.in/e_kmfWf2
-
+- Montamos uma query simples e ordenada para mostrar os artistas com os hits mais executados (continuação de um trabalho anterior), confira: https://github.com/larydias/Banco-de-Dados-Playlist
 Resultado? Ficou simples, interativo e ainda usamos e abusamos de duas linguagens: Python e SQL! 
 
 Obrigada, Úrsula Fernanda Martins por me ajudar! =) 
